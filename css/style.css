@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+h2{
+    margin: 0;
+}
+
+/*フォント */
+
+.judson-regular {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .judson-bold {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .judson-regular-italic {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+
+  /* jpフォント */
+.zen-old-mincho-regular {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+
+  
+/* ヘッダー ------------------------------------*/
+
+header{
+    /* height: 1320px; */
+    /* padding-bottom:80px ;
+    background-color: #c27f7f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/back1.png) center / cover no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.title{
+    margin: 100px 0 0;
+    color: #6B2C46;
+    font-family: judson;
+}
+
+/* プロフィール -------------------------------------*/
+
+.profile{
+    background: url(../img/back2.png) center / cover no-repeat;
+    padding-bottom: 150px;
+    background-size: cover;
+    height: 1000px;
+    font-family: judson;
+
+
+
+  
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+
+}
+
+
+.profile-midasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    color: #6B2C46;
+}
+
+.profile-mozi{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    margin-top: 80px;
+}
+
+.name,
+.from,
+.class{
+    margin-top: 30px;
+    padding: 20px 40px 10px;
+    color: #6B2C46;
+    background-image: linear-gradient(135deg, #6B2C46 10%, #be7e9c 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: bottom;
+    border-radius: 10px;
+    width: 370px;
+
+
+    /* border-bottom: 2px solid #6B2C46 ; */
+
+    /* text-decoration: underline; 
+  /* text-decoration-thickness: 0.5em; 
+  /* text-decoration-color: #79445a; 
+  /* text-underline-offset: 0.9em; 
+  /* text-decoration-skip-ink: none; 
+  
+
+    /* padding: 0.8rem 0 0;
+    margin-bottom: 0.2rem;
+    background-image: linear-gradient(135deg, #F0FF00 10%, #58CFFB 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 13px;
+    background-position: bottom;
+    color: #353535;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px; */
+}
+
+.nama_,
+.from_,
+.class_{
+    padding: 30px 0 20px;
+    
+    
+}
+
+
+.botton{
+    color: #6B2C46;
+    background-color: #ead7d7;
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid #6B2C46;
+    padding: 16px 32px ;
+    /* position: relative;
+    left: 800px; */
+    font-family: judson;
+}
+
+.botton-area{
+    padding-top: 150px;
+    text-align: center;
+}
+
+/* STUDY ---------------------------------------*/
+
+.study{
+    text-align: center;
+    background: url(../img/back3.png) center / cover no-repeat;
+    height: 1000px;
+    font-family: judson;
+
+    /* -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-top: 62.5%; */
+}
+
+.study-midasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    color: #6B2C46;
+}
+
+
+
+.study-mozi{
+    margin-top: 100px;
+}
+
+.study-top{
+    display: flex;
+    justify-content: center;
+}
+
+.study-under{
+    display: flex;
+    justify-content: center;
+}
+
+.study li{
+    margin: 25px 35px;
+    padding: 10px;
+    border: double 9px #825b6c;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.study p{
+    margin: 40px 5px 60px;
+    color:#6B2C46;
+    font-family: Zen Old Mincho;
+}
+
+.study h3{
+    color:#6B2C46;
+}
+
+
+
+
+    /* work----------------------------------- */
+
+
+.works{
+    text-align: center;
+    background: url(../img/back4.png) center / cover no-repeat;
+    height: 800px;
+    font-family: Judson;
+}
+
+.works-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    font-family: Zen Old Mincho;
+}
+
+.neko1 , 
+.neko2 , 
+.prof{
+    color: #6B2C46;
+    margin: 30px;
+
+}
+
+
+.works-midasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    color: #6B2C46;
+}
+
+
+
+/* footer-------------------------- */
+
+
+footer{
+    background-color: #E5BEBE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:80px ;
+    font-family: Zen Old Mincho;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: #6B2C46;
+}
+
+
+
+
+
+
+
+
+

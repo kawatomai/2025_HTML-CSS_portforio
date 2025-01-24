@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+/* --------------header--------------- */
+
+header{
+    background-color: #FFE4AA;
+    padding: 2px;
+    margin: 0px;
+    /* width: auto; */
+    height: 110px;
+    flex-shrink: 0;
+}
+
+h2{
+    font-size: 36px;
+    margin-left: 30px;
+    color: #7E3131;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 15px;
+    right: 18px;
+
+}
+nav li{
+    font-size: 20px;
+    display: flex;
+
+}
+nav .page a {
+    color: #7E3131;
+    text-decoration: none;
+    margin: 12px;
+}
+/* a:hover {
+    color: #000000;
+    text-decoration: underline;
+  } */
+
+
+
+
+/* -------------main---------------- */
+
+/* .main-img{
+    size: 100%;
+    margin: 0;
+} */
+ main{
+    /* margin: 0; */
+ }
+
+/* -----sec0------ */
+
+.sec0{
+    margin: 0 auto;
+}
+ .sec0 img{
+  /* margin: 0; */
+  display: block;
+  width:100%;
+ }
+
+.main-img {
+    width:300;
+    height: 200;
+  }
+
+/* -----sec1---------------- */
+.sec1{
+    display: flex;
+    
+}
+.sec1 img{
+    margin: 0;
+  display: block;
+  width:100%;
+}
+.sec1 p{
+    color: #7E3131;
+    font-size: 24px;
+
+}
+
+/* -----sec2----------------- */
+
+
+.sec2{
+    display: flex;
+    text-align: center;
+    /* margin-left: 40px; */
+
+}
+
+.sec2 img{
+justify-content: end;
+}
+
+.sec2-text{
+    background-color: #FFEDC5;
+    margin-top: 55px;
+    flex-grow:1;
+    color: #7E3131;
+}
+
+.sec2-text h3{
+    font-size: 32px;
+}
+.sec2-text p{
+    font-size: 20px;
+}
+
+.sec2-bottun {
+    color: #7E3131;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #FFE4AA;
+    border-radius: 30px;
+}
+
+
+/* -------sec3--------------- */
+
+
+.sec3{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+
+.sec3 img{
+    padding: 0;
+}
+
+.sec3-text{
+    background-color: #FFEDC5;
+    color: #7E3131;
+    margin-top: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+.sec3-bottun{
+    color: #7E3131;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #FFE4AA;
+    border-radius: 30px;
+}
+
+
+
+
+
+/* --------------footer--------------- */
+
+
+
+/* ----------------------------------------------------- */
+/* ----------------------------- */
+/* ----------- */

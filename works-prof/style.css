@@ -1,0 +1,148 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+/* フォント */
+.judson-regular {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .judson-bold {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .judson-regular-italic {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+/************************
+COMMON
+************************/
+
+body {
+    background: #eee;
+    color: #212121;
+    background-image: url(img/背景画像.jpg);
+    background-size: cover;
+}
+
+
+main {
+    width: 1000px;
+    margin: 80px auto;
+    padding: 80px;
+    background: #fff7f7;
+    color: #8A6262;
+    border-radius: 3cap;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+/*******
+見出し
+********/
+h2 {
+    font-size: 24px;
+    padding: 16px;
+    border-top: 2px solid #212121;
+    border-bottom: 2px solid #212121;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffe4e4;
+    border-color: #8A6262;
+    font-family: judson;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 4px 0 4px 16px;
+    border-left: 8px solid #212121;
+    margin-bottom: 10px;
+    border-left-color: #C08585;
+    font-family: judson;
+}
+
+/*****************
+コンテンツ
+******************/
+.contents-area {
+    display: flex;
+    gap: 40px;
+}
+
+.left-area,
+.right-area {
+    width: 400px;
+}
+
+.contents {
+    padding-left: 24px;
+    margin-bottom: 32px;
+    font-size: larger;
+}
+
+.contents img {
+    width: 300px;
+    height: 200px;
+    margin-top: 16px;
+}
+
+/************************
+section # profile
+************************/
+
+.my-img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.my-name rt {
+    margin-bottom: 4px;
+}
+
+.my-name {
+    font-size: 24px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #ffe4e4;
+    width: 200px;
+    height: 50px;
+    border-radius: 3cap;
+    
+}
+
+.my-intro {
+    width: 600px;
+    margin: 0 auto 30px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+
+/************************
+
+************************/
+
+/*****************
+
+******************/
+/**** ***/

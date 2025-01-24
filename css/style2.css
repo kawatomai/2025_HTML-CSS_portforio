@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+
+body{
+    background: url(../img/back5.png) center / cover no-repeat;
+    height: 1440px;
+   width: 1440px; 
+   width: 100%;
+   margin: 0;
+}
+
+/* header----------------------- */
+
+.top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-img{
+    margin: 0;
+    width: 25%;
+
+}
+
+.name{
+    display: block;
+    position: relative;
+    left: 100px;
+    color: #6B2C46;
+
+}
+
+.name h2{
+    letter-spacing: 5px;
+    background-image: linear-gradient(135deg, #6B2C46 10%, #be7e9c 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: bottom;
+    border-radius: 10px;
+    padding-bottom: 6px;
+}
+
+.name p{
+    background-image: linear-gradient(135deg, #6B2C46 10%, #be7e9c 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: bottom;
+    border-radius: 10px;
+    padding: 16px 0 6px;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:40px;
+    letter-spacing: 4px;
+    color: #6B2C46;
+}
+
+
+/* ---------------------------- */
+
+
+
+/* main---------------------------- */
+
+.main{
+    text-align: center;
+}
+
+
+
+.main img{
+    width: 60%;
+  margin: auto;
+  display: block;
+  
+}
+
+.main img{
+padding: 20px 20px;
+
+} 
